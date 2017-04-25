@@ -8,6 +8,8 @@ public class Health : NetworkBehaviour
 
     public const int maxHealth = 100;
 
+    public bool destroyOnDeath;
+
     [SyncVar(hook = "OnChangeHealth")]
     public int currentHealth = maxHealth;
 
@@ -21,10 +23,17 @@ public class Health : NetworkBehaviour
         currentHealth -= amount;
         if (currentHealth <= 0)
         {
-            currentHealth = maxHealth;
+            if (destroyOnDeath)
+            {
+                Destroy(gameObject);
+            }
+            else
+            {
+                currentHealth = maxHealth;
 
-            // called on the Server, but invoked on the Clients
-            RpcRespawn();
+                // called on the Server, will be invoked on the Clients
+                RpcRespawn();
+            }
         }
     }
 
@@ -38,7 +47,7 @@ public class Health : NetworkBehaviour
     {
         if (isLocalPlayer)
         {
-            // move back to zero location
+            // Set the player’s position to origin
             transform.position = Vector3.zero;
         }
     }
