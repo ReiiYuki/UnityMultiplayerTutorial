@@ -15,27 +15,25 @@ Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine
 Loading G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.020 seconds
+- Completed reload, in  0.029 seconds
 Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.807800 ms
+UnloadTime: 1.885627 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 44f4 -> priority: 1 
-  Thread -> id: 4e10 -> priority: 1 
-  Thread -> id: 2cec -> priority: 1 
-  Thread -> id: 24e0 -> priority: 1 
+  Thread -> id: 479c -> priority: 1 
+  Thread -> id: 42bc -> priority: 1 
+  Thread -> id: 216c -> priority: 1 
+  Thread -> id: 4c6c -> priority: 1 
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
 reactor filed to acomplish request with code {1234}, bytesReceived {0}
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
-reactor filed to acomplish request with code {1234}, bytesReceived {0}
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+ClientDisconnected due to error: Timeout
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
