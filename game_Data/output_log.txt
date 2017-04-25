@@ -15,16 +15,16 @@ Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine
 Loading G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading G:\workspace\Unity\UnetTutorial\game_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.091 seconds
+- Completed reload, in  0.020 seconds
 Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: G:\workspace\Unity\UnetTutorial\game_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 1.323455 ms
+UnloadTime: 1.729973 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: 2dac -> priority: 1 
-  Thread -> id: 225c -> priority: 1 
-  Thread -> id: 3a90 -> priority: 1 
-  Thread -> id: 20a8 -> priority: 1 
+  Thread -> id: 46d0 -> priority: 1 
+  Thread -> id: 5084 -> priority: 1 
+  Thread -> id: 29ac -> priority: 1 
+  Thread -> id: 850 -> priority: 1 
