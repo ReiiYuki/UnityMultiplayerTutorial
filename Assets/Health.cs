@@ -28,6 +28,7 @@ public class Health : NetworkBehaviour
 
     void OnChangeHealth(int health)
     {
+        Debug.Log(health);
         healthBar.sizeDelta = new Vector2(health, healthBar.sizeDelta.y);
     }
 }
